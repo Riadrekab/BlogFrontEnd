@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html style="height: 100%;">
+    <head>
+    <title> The Reader</title>
+        <link rel="stylesheet" href="register.css">
+        <link rel="icon" href="Assets/img/reading.png" >
+    </head>
+
+ 
+    <body>
+        <header>
+            <div class='parent'>
+                <div class='child' style="display: flex;"> 
+                    <img style=" width: 60px; padding-right: 15px;"src="./Assets/img/reading.png" title="The Reader"> 
+                    <p  style="font-size: 15px;"> The Reader</p>
+                </div>
+                <p  class='childOb' onclick = "window.location.href='index.html';"> Home </p>
+                <p  style="color: green;" onclick = "window.location.href='index.html';"> Register </p>
+                <!-- <p class='childOb' onclick = "window.location.href='AboutUs.html';" > About Us </p> -->
+                <p  class='childOb' style ="scroll-behavior: smooth;" onClick="document.getElementById('middle').scrollIntoView({behavior: 'smooth' });"> Contact us</p>
+            </div>
+        </header>
+        <div style=" width: 100%;">
+            <h1 style ="text-align: center";> Join us !</h1>
+            <div style ="display: inline-block; margin: 0 auto; width: 70%; padding-bottom: 20px;" >
+              <p style="padding-bottom:10px ;">
+                Don't miss out on this chance to connect with fellow writing lovers and hone your craft - sign up today and join our community!
+            </div>
+        </div>
+
+              
+                
+    <form id="registerForm">
+        <div class='formColumns' >
+            <div style="width: 70%; text-align: left; padding-left: 50px;"  >
+                    <div style="text-align: left;">
+                        <div style="padding-bottom: 15px;"> 
+                            <label for="fname">Your first name:</label><br>
+                            <input type="text" id="fname" name="fname" placeholder="John" style="padding-left: 7px;"><br>
+                            <p class="missingVal">  Missing value </p>
+                        </div>
+                        
+                        <div style="padding-bottom: 15px;">
+                            <label for="lname" >Your last name:</label><br>
+                            <input type="text" id="lname" name="fname" placeholder="Don" style="padding-left: 7px;"><br>
+                            <p class="missingVal">  Missing value </p>
+                        </div>
+                        
+                        <div style="padding-bottom: 15px;">
+                            <label for="email">Your Email:</label><br>
+                            <input type="email" id="email" name="email" placeholder="JohnDon@gmail.com" style="padding-left: 7px;"><br>
+                            <p class="missingVal">  Missing value </p>
+                            <p class="wrongVal">  Wrong value </p>
+                        </div>
+                        
+
+                        <div style="padding-bottom: 15px;" >
+
+                            <label for="phone">Your phone number:</label><br>
+                            <input type="number" id="phone" name="phone" placeholder="0617357268" style="padding-left: 7px;"><br>
+                            <p class="missingVal">  Missing value </p>
+                            <p class="wrongVal">  Wrong value </p>
+                        </div>
+                        <div style="padding-bottom: 15px;" >
+                            <label for="phone">Passeword:</label><br>
+                            <input type="password" id="passwrd" name="passwrd" placeholder="" style="padding-left: 7px;"><br>
+                            <p class="missingVal">  Password too short (at least 8 characters) </p>
+                        </div>
+                    </div>
+            </div>
+            <div style="width: 35%; padding-right: 50px;">
+                <img src="Assets/img/6736905.jpg" style="width: 100%; height: 100%" >
+            </div>
+        </div>
+    <button style="margin-top: 60px;" type="submit" onclick="submitForm(event)"> Join </button>
+
+    </form> 
+    <button class="Sign" style="margin-top: 30px;" onclick="window.location.href='login.html'" > I have an account </button>
+
+
+    <footer style="padding-top: 80px;" id="middle">  
+        <hr>
+        <div class='parent'>
+            <div class='child'> <img  style=" width: 100px;" src="./Assets/img/reading.png" title="The Reader"> </div>
+            <div class='child'> 
+            <p>Email : Contact@gmail.com</p>
+            <p>Phone : +33617234578</p>
+            <p>Fax : +3312345678</p>
+            </div>
+        </div>
+        
+    </footer>
+
+    <script src="register.js"></script>
+</body> 
+    
+
+        

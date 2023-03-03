@@ -1,0 +1,62 @@
+@import url(generalStyle.css);
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+
+.titleDiv {
+    width: 100%; 
+    padding-top:50px; 
+    padding-left:20px; 
+    padding-bottom:20px; 
+    display: flex;  
+    justify-content: space-between; 
+    margin-left: 5%;
+}
+
+.content{
+    width: 90%; 
+    display: flex;
+    margin: auto; 
+    margin-top: 30px; 
+    padding-bottom: 50px;
+}
+.articleDiv{
+    padding-right:100px;
+    border: 1px solid grey;
+    border-left-style: hidden;
+    border-top-style: hidden;
+    border-bottom-style: hidden;
+    width: 70%; 
+    padding-left: 25px;
+}
+
+.blogDiv{
+    margin-top: 10px;
+    padding-top: 8px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 8px;
+    display:flex; 
+    width: 100%; 
+    height: 100%; 
+    transition: 0.5s;
+    cursor: pointer;
+    border-top : 1px solid grey ;
+    border-bottom : 1px solid grey ;
+
+}
+
+.blogDiv:hover {
+    background-color: rgba(236, 236, 236, 0.666);
+}
+
+
+p {
+    text-align-last: left;
+}

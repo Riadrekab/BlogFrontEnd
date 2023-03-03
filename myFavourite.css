@@ -1,0 +1,40 @@
+@import url(generalStyle.css);
+
+
+.content{
+    width: 90%; 
+    display: flex;
+    margin: auto; 
+    margin-top: 30px; 
+    padding-bottom: 50px;
+}
+
+.favoritesDiv{
+    padding-right:100px;
+    border: 1px solid grey;
+    border-left-style: hidden;
+    border-top-style: hidden;
+    border-bottom-style: hidden;
+    width: 65%; 
+    padding-left: 25px;
+}
+
+.divImg {
+    width: 23%;
+    margin-left: 10px;
+    height: 100%; 
+    display: inline-block;
+    position: relative;
+}
+.imgText {
+    max-height: 90%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
