@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html style="height: 100%;">
     <head>
-        <title> The Reader </title>
+    <title> The Reader</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
         <link rel="stylesheet" href="myFavourite.css">
         <link rel="icon" href="Assets/img/reading.png" >
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     </head>
-
 <body>
     <header>
         <div class='parent'>
@@ -16,17 +14,18 @@
                 <img   style=" width: 60px; padding-right: 15px;"src="./Assets/img/reading.png" title="The Reader"> 
                 <p  style="font-size: 15px;"> The Reader</p>
             </div>
-            <p class='childOb' onclick = "window.location.href='Home.html';" > Home </p>
-            <p  class='childOb' style="color: green;" > My favourites </p>
+            <p  class='childOb' onclick="window.location.href='home.html'"> Home </p>
+
+            <p  class='childOb' style="color: green;"> My favourites </p>
+            <!-- <p class='childOb' onclick = "window.location.href='AboutUs.html';" > About Us </p> -->
             <p  class='childOb' style ="scroll-behavior: smooth;"> Disconnect</p>
         </div>
     </header>
-    <hr style="width: 90%; margin-top: 5px;">
+    <h1 style="text-align: center; padding-top: 30px;"> Your favorite articles  </h1>
 
-    <div  class="content">
-        <div class="favoritesDiv">
+    <div class="container">
+        <div style="column-count: 1; width: 65%;">
             <div style="width: 95%;height: 200px;">
-                <hr style="margin: 0px;">    
                 <div class="blogDiv">
                     <div class="divImg">
                         <img class="imgText" src="https://img.freepik.com/free-photo/cup-coffee-with-heart-drawn-foam_1286-70.jpg?1&w=1800&t=st=1677078817~exp=1677079417~hmac=683d917d7d23af5259ce4c8c3cf4d7f3aa352c319131789fc0457ce27e4c15d3" >
@@ -41,7 +40,116 @@
                     </div>  
                 
                 </div>
-                <hr style="margin: 0px;">     
+                  
             </div>
-        </div>  
+
+            <div style="width: 95%;height: 200px; padding-top: 30px;">
+                 
+                <div class="blogDiv">
+                    <div class="divImg">
+                        <img class="imgText" src="https://img.freepik.com/free-photo/worried-senior-man-thinking-something-while-resting-bed-night_637285-3451.jpg?w=2000&t=st=1677082229~exp=1677082829~hmac=ff6c8458f4fb01d0eaa4cd099902e6a6e9181b95109a9051acf29ea12798560b" >
+                    </div>
+                    <div style="width: 70%;height: 100%;">
+                        <h3>
+                            The Myth That Older People Can’t Sleep Well
+                        </h3>
+                        <p>
+                            Proof that both adventure and kindness can be found on the street — As soon as I set foot in New York City, I sensed how different it is from any other metropolis. On the surface, it’s just like all other major cities                    
+                        </p>
+                    </div>  
+                
+                </div>
+                  
+            </div>
+
+            <div style="width: 95%;height: 200px; padding-top: 30px;">
+                 
+                <div class="blogDiv">
+                    <div class="divImg">
+                        <img class="imgText" src="https://img.freepik.com/free-photo/african-head-department-is-satisfied-with-work-staff-asian-male-student-trendy-shirt-telling-university-friends-about-his-science-report_197531-3728.jpg?w=2000&t=st=1677082396~exp=1677082996~hmac=1e562a37c069a3e53478eb993e23cec0727937fb3e6c5663e9c71b458341ce8a" >
+                    </div>
+                    <div style="width: 70%;height: 100%;">
+                        <h3>
+                            Why Does Japan Have So Few Startups?
+                        </h3>
+                        <p>
+                            An unconventional and compassionate guide to becoming an early bird — I thought I was destined to be a night owl forever. I’m no stranger to reading about the benefits of waking up early or having the same
+                        </p>
+                    </div>  
+                
+                </div>
+                  
+            </div>
+            <div style="width: 95%;height: 200px;padding-top: 30px;">
+                 
+                <div class="blogDiv">
+                    <div class="divImg">
+                        <img class="imgText" src="https://img.freepik.com/free-photo/cup-coffee-with-heart-drawn-foam_1286-70.jpg?1&w=1800&t=st=1677078817~exp=1677079417~hmac=683d917d7d23af5259ce4c8c3cf4d7f3aa352c319131789fc0457ce27e4c15d3" >
+                    </div>
+                    <div style="width: 70%;height: 100%;">
+                        <h3>
+                            How To Wake Up at 5 A.M. Every Day
+                        </h3>
+                        <p>
+                            An unconventional and compassionate guide to becoming an early bird — I thought I was destined to be a night owl forever. I’m no stranger to reading about the benefits of waking up early or having the same
+                        </p>
+                    </div>  
+                
+                </div>
+                  
+            </div>
+
+        </div>
+        <div style="column-count: 1;width: 35%; border: 1px solid black; padding-left: 20px; border-top-style: hidden; border-right-style: hidden; border-bottom-style: hidden;">
+            <div style="width: 100%; padding-left: 10px;  text-align-last: center;">
+                <p style="font-size: 25px; padding-top: 30px; text-align-last: left; margin-top: 0px; color: black;"> More articles : </p>  
+                <div>
+                    <div class="blogDiv">
+                        <div style="width: 100%;">
+                            <p style="font-size: 15px; padding-right: 5px; color: black;">
+                                How To Wake Up at 5 A.M. Every Day
+                            </p>
+                        </div>
+                        <img src="https://img.freepik.com/free-photo/cup-coffee-with-heart-drawn-foam_1286-70.jpg?1&w=1800&t=st=1677078817~exp=1677079417~hmac=683d917d7d23af5259ce4c8c3cf4d7f3aa352c319131789fc0457ce27e4c15d3" width="35%" style="border-radius: 10px;">
+                    </div>   
+                    <div class="blogDiv">
+                        <div style="width: 100%;">
+                            <p style="font-size: 15px; padding-right: 5px; color: black;">
+                                The Myth That Older People Can’t Sleep Well
+                            </p>
+                        </div>
+                        <img src="https://img.freepik.com/free-photo/worried-senior-man-thinking-something-while-resting-bed-night_637285-3451.jpg?w=2000&t=st=1677082229~exp=1677082829~hmac=ff6c8458f4fb01d0eaa4cd099902e6a6e9181b95109a9051acf29ea12798560b" width="35%" style="border-radius: 10px;">
+                    </div>   
+                    <div class="blogDiv">
+                        <div style="width: 100%;">
+                            <p style="font-size: 15px; padding-right: 5px; color: black;">
+                                Why Does Japan Have So Few Startups?
+                            </p>
+                        </div>
+                        <img src="https://img.freepik.com/free-photo/african-head-department-is-satisfied-with-work-staff-asian-male-student-trendy-shirt-telling-university-friends-about-his-science-report_197531-3728.jpg?w=2000&t=st=1677082396~exp=1677082996~hmac=1e562a37c069a3e53478eb993e23cec0727937fb3e6c5663e9c71b458341ce8a" width="35%" style="border-radius: 10px;">
+                    </div>   
+
+                </div>
+            </div>
+            
+        </div>
     </div>
+
+
+
+    
+    <footer style="padding-top: 80px;" id="middle">  
+        <hr>
+        <div class='parent'>
+            <div class='child'> <img  style=" width: 100px;" src="./Assets/img/reading.png" title="The Reader"> </div>
+            <div class='child'> 
+            <p>Email : Contact@gmail.com</p>
+            <p>Phone : +33617234578</p>
+            <p>Fax : +3312345678</p>
+            </div>
+        </div>
+        
+    </footer>
+</body>
+    
+</html>
